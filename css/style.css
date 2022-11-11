@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vw;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.img-container{
+    position: relative;
+}
+
+
+/* .foto{
+    display: none;
+} */
+/* 
+.foto:active{
+    display: inline-block;
+} */
+
+.foto img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.avanti{
+    position: absolute;
+    font-size: 20px;
+    top: 0;
+    left: 50%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.indietro{
+    position: absolute;
+    font-size: 20px;
+    left: 50%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
