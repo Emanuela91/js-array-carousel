@@ -10,7 +10,7 @@
     margin: 0 auto;
 }
 
-.img-container{
+.img_container{
     height: 100%;
     position: relative;
 }
@@ -32,22 +32,28 @@
 }
 
 
-.avanti{
+#avanti{
     position: absolute;
     font-size: 20px;
     top: 0;
     left: 50%;
-    background-color: white;
-    padding: 5px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
+    border: none;
 }
 
-.indietro{
+#indietro{
     position: absolute;
     font-size: 20px;
     bottom: 0;
     left: 50%;
-    background-color: white;
-    padding: 5px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
+    border: none;
+}
+
+.hidden{
+    display: none;
 }
