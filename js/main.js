@@ -1,26 +1,12 @@
-const imgArray = [];
+const imgArray = ['img/01.webp', 'img/02.webp', 'img/03.webp', 'img/04.webp', 'img/05.webp'];
 
-imgArray[0] = new Image();
-imgArray[0].src = 'img/01.webp';
-
-imgArray[1] = new Image();
-imgArray[1].src = 'img/02.webp';
-
-imgArray[2] = new Image();
-imgArray[2].src = 'img/03.webp';
-
-imgArray[3] = new Image();
-imgArray[3].src = 'img/04.webp';
-
-imgArray[4] = new Image();
-imgArray[4].src = 'img/05.webp';
 
 console.log(imgArray);
 
 
 for (let i = 0; i < imgArray.length; i++) {
     const cont = document.querySelector(".img_container");
-    const element = `<div class="foto">${imgArray[i]}</div>`;
+    const element = `<div class="foto"><img src="${imgArray[i]}"></div>`;
     cont.innerHTML += element; 
     console.log(element);
 }
